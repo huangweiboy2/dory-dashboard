@@ -60,3 +60,4 @@ jobs:
           asset_path: ./dory-dashboard-${{ needs.createRelease.outputs.tag_name }}-node-${{ matrix.node-version }}.tgz
           asset_name: dory-dashboard-${{ needs.createRelease.outputs.tag_name }}-node-${{ matrix.node-version }}.tgz
           asset_content_type: application/gzip
+
