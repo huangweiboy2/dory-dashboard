@@ -42,3 +42,21 @@ npm install && npm run build
 ls -alh dist
 ```
 
+## 截图
+
+- 一个项目支持多个微服务的上云
+
+![](docs/images/shortcut-project-view.png)
+
+- 应用的微服务上云流程概览
+
+![](docs/images/shortcut-pipeline-run.png)
+
+- 步骤执行记录抽取关键日志信息，无需返查冗长的日志
+
+![](docs/images/shortcut-steps-list.png)
+
+- 多维度的度量指标，呈现研发效能趋势
+
+![](docs/images/shortcut-metrics-view.png)
+

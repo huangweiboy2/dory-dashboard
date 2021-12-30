@@ -41,3 +41,22 @@ npm install && npm run build
 # compile output directory
 ls -alh dist
 ```
+
+## Shortcut
+
+- project management
+
+![](docs/images/shortcut-project-view.png)
+
+- pipeline run workflow
+
+![](docs/images/shortcut-pipeline-run.png)
+
+- pipeline run step detail
+
+![](docs/images/shortcut-steps-list.png)
+
+- metrics dashboard
+
+![](docs/images/shortcut-metrics-view.png)
+
