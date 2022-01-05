@@ -1102,11 +1102,11 @@
                       dense
                       v-model="memberAddForm.accessLevel"
                       :rules="[v => !!v || '用户角色为必选项']"
-                      :messages="[ 'developer：git代码仓库的默认分支的修改权限，可以执行流水线', 'maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过个人控制台对项目进行设置。']"
+                      :messages="[ 'developer：git代码仓库的默认分支的修改权限，可以执行流水线', 'maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过项目控制台对项目进行设置。']"
                     >
                       <template v-slot:message>
                         <div>developer：git代码仓库的默认分支的修改权限，可以执行流水线</div>
-                        <div>maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过个人控制台对项目进行设置。</div>
+                        <div>maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过项目控制台对项目进行设置。</div>
                       </template>
                     </v-select>
                   </v-col>
@@ -1158,11 +1158,11 @@
                       dense
                       v-model="memberAddForm.accessLevel"
                       :rules="[v => !!v || '用户角色为必选项']"
-                      :messages="[ 'developer：git代码仓库的默认分支的修改权限，可以执行流水线', 'maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过个人控制台对项目进行设置。']"
+                      :messages="[ 'developer：git代码仓库的默认分支的修改权限，可以执行流水线', 'maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过项目控制台对项目进行设置。']"
                     >
                       <template v-slot:message>
                         <div>developer：git代码仓库的默认分支的修改权限，可以执行流水线</div>
-                        <div>maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过个人控制台对项目进行设置。</div>
+                        <div>maintainer：git代码仓库的维护者权限，可以修改所有分支，可以执行流水线，可以通过项目控制台对项目进行设置。</div>
                       </template>
                     </v-select>
                   </v-col>

@@ -7,7 +7,7 @@ export default class Menu {
   topMenu$ = new BehaviorSubject([
     { key: 'projects', icon: 'mdi-rocket-launch', title: '持续交付', type: 'router', routerKey: 'Cicd' },
     { key: 'metrics', icon: 'mdi-bulletin-board', title: '度量统计', type: 'router', routerKey: 'Metrics' },
-    { key: 'console', icon: 'mdi-console', title: '个人控制台', type: 'router', routerKey: 'Console' },
+    { key: 'console', icon: 'mdi-console', title: '项目控制台', type: 'router', routerKey: 'Console' },
     { key: 'admin', icon: 'mdi-account-cog', title: '管理控制台', type: 'router', routerKey: 'Admin' },
     // { key: 'docs', icon: 'mdi-help-circle', title: '帮助手册', type: 'router' },
     // { key: 'msgs', icon: 'mdi-android-messages', title: '消息通知', type: 'router' },
@@ -96,7 +96,7 @@ export default class Menu {
     },
     {
       key: 'console',
-      name: '个人控制台',
+      name: '项目控制台',
       nodes: [
         { key: 'adminProjects', name: '项目管理', icon: 'mdi-rocket-launch', type: 'router', routerKey: 'ConsoleProjects' },
         { key: 'ConsoleCronLogs', name: '计划任务日志', icon: 'mdi-file-tree', type: 'router', routerKey: 'ConsoleCronLogs' },
