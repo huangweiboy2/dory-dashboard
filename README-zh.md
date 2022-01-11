@@ -1,4 +1,4 @@
-# `dory-dashboard` 是一个 `Dory-Engine` 的WebUI
+# Dory-Engine是一个简单得非常吓人的应用上云引擎，dory-dashboard是Dory-Engine的WebUI管理界面
 
 - [English documents](README.md)
 - [中文文档](README-zh.md)

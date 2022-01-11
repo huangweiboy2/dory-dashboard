@@ -1,4 +1,4 @@
-# `dory-dashboard` is WebUI for `Dory-Engine`
+# Dory-Engine - Make Cloud-Native extremely easy, dory-dashboard is WebUI for Dory-Engine
 
 - [English documents](README.md)
 - [中文文档](README-zh.md)
